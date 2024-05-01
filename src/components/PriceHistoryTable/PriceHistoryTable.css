@@ -1,0 +1,54 @@
+/* PriceHistoryTable.css */
+.table-container {
+    margin: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #e88787;
+    display: flex;
+    justify-content: center;
+
+  }
+  
+  .table-header {
+    background-color: #f4f4f4;
+  }
+  
+  .row {
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  .row:last-child {
+    border-bottom: none;
+  }
+  
+  .row > th,
+  .row > td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .row > td > a {
+    color: #007bff;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .row > td > a:hover {
+    text-decoration: underline;
+  }
+  
+  .close-button {
+    margin: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .close-button:hover {
+    background-color: #0056b3;
+  }
+  

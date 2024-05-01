@@ -1,0 +1,67 @@
+.product-details {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-details h2 {
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  .product-details img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 4px;
+  }
+  
+  .product-details p {
+    color: #666;
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+  
+  .product-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .product-link:hover {
+    text-decoration: underline;
+  }
+  
+  .price-history-chart {
+    margin: 20px 0;
+  }
+  
+  /* Additional style for the current price display */
+  .current-price {
+    font-weight: bold;
+    margin: 20px 0;
+    color: #007bff;
+  }
+
+  .close-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    right: 20px;
+    top: 20px;
+  }
+
+  /* .close-button:hover{
+    background-color: #d32f2f;
+  } */
+  
+  .material-symbols-outlined {
+    font-size: 24px; /* Adjust icon size */
+    color: black; /* Icon color */
+  }
